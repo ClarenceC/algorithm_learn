@@ -7,12 +7,14 @@
 - O(1): Constant Complexity: Constant 常数复杂度
 - O(log n): Logarithmic Complexity: 对数复杂度
 - O(n): Linear Complexity: 线性时间复杂度
-- O(n^2): N square Complexity 平⽅方
-- O(n^3): N square Complexity ⽴立⽅方
-- O(2^n): Exponential Growth 指数
+- O(n<sup>2</sup>): N square Complexity 平⽅方
+- O(n<sup>3</sup>): N square Complexity ⽴立⽅方
+- O(2<sup>n</sup>): Exponential Growth 指数
 - O(n!): Factorial 阶乘
 
 ![images](./images/WX20200817-104433.png)
+
+- [大O 复杂度速查](https://www.bigocheatsheet.com/)
 
 - **O(1)**
 
@@ -55,3 +57,18 @@ function bubbleSort(array, compareFn = defaultCompare) {
 }
 ```
 
+- **O(logN)**
+
+下面函数会使用时间会对数式减少， 或者二分查找法最坏的情况会出现 **O(logN)** 的复杂度。
+
+```js
+var count = 1
+while(count < n) {
+  count = count * 2
+}
+```
+
+
+一般来说，如果一个算法复杂度为 **O(n<sup>k</sup>)**, 其中 k 是常数， 我们就认为这个算法是高效的，
+
+![images](./images/WX20200818-115545.png)
