@@ -44,5 +44,5 @@ function modifiedBubbleSort(array, compareFn = defaultCompare) {
 ```
 
 最佳情况: 输入数组按升序排列 **T(n) = O(n)**
-最坏情况: 输入数组按降序排列 **T(n) = O(n2)**
-平均情况: **T(n) = O(n2)**
+最坏情况: 输入数组按降序排列 **T(n) = O(n<sup>2</sup>)**
+平均情况: **T(n) = O(n<sup>2</sup>)**
