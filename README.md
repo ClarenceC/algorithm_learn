@@ -4,9 +4,9 @@
 
 - [冒泡排序](./BubbleSort/bubble.md)
 - [选择排序](./SelectionSort/SelectionSort.md)
-- 插入排序
+- [插入排序](./InsertionSort/InsertionSort.md)
 - 希尔排序
-- 归并排序
+- [归并排序](./MergeSort/MergeSort.md)
 - 计数排序
 - 桶排序
 - 基数排序
