@@ -9,7 +9,7 @@
 - [归并排序](./MergeSort/MergeSort.md)
 - [快速排序](./QuickSort/QuickSort.md)
 - [计数排序](./CountingSort/CountingSort.md)
-- 桶排序
+- [桶排序](./BucketSort/BucketSort.md)
 - 基数排序
 - 顺序搜索
 - 内插搜索
