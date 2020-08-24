@@ -17,7 +17,7 @@ function createBuckets(array, bucketSize) {
 
   const bucketCount = Math.floor((maxValue - minValue) / bucketSize) + 1
   const buckets = []
-  for (let i = 0; i < bucketCount; i++) {
+  for (let i = 0; i < bucketCount;  i++) {
     buckets[i] = []
   }
   for (let i = 0; i < array.length; i++) {
@@ -46,6 +46,8 @@ function bucketSort(array, bucketSize = 5)  {
   return sortbuckets(buckets)
 }
 ```
+
+空间复杂度: **O(n+k)**
 
 最佳情况: 输入数组按升序排列 **T(n) = O(n+k)**
 
