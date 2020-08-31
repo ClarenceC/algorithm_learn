@@ -13,7 +13,7 @@ function lesserOrEquals(a, b, compareFn) {
   return comp === Compare.LESS_THAN || comp === Compare.EQUALS
 }
 
-function bbiggerOrEquals(a, b, compareFn) {
+function biggerOrEquals(a, b, compareFn) {
   const comp = compareFn(a, b)
   return comp === Compare.BIGGER_THAN || comp === Compare.EQUALS
 }
