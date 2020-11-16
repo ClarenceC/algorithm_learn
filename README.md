@@ -21,6 +21,9 @@
 - [* 动态规划](https://www.zhihu.com/question/23995189)
 - [* 动态规划解题套路框架](https://labuladong.gitbook.io/algo/dong-tai-gui-hua-xi-lie/1.1-dong-tai-gui-hua-ji-ben-ji-qiao/dong-tai-gui-hua-xiang-jie-jin-jie)
 
+### 贪心算法
+- [* 贪心算法](https://zh.wikipedia.org/wiki/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95)
+
 ### 循环vs迭代vs遍历
 
 共同点在于，都是通过一个多次的重复的操作计算出最终的结果。
