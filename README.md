@@ -1,6 +1,11 @@
 ## 算法知识学习手册
 
+数据结构与算法框架
+![images](./images/913e0ababe43a2d57267df5c5f0832a7.jpg)
+
 - [复杂度](./Complexity/complexity.md)
+
+复杂度分析:
 
 - [冒泡排序](./BubbleSort/bubble.md)
 - [选择排序](./SelectionSort/SelectionSort.md)
@@ -20,6 +25,7 @@
 ### 动态规划
 - [* 动态规划](https://www.zhihu.com/question/23995189)
 - [* 动态规划解题套路框架](https://labuladong.gitbook.io/algo/dong-tai-gui-hua-xi-lie/1.1-dong-tai-gui-hua-ji-ben-ji-qiao/dong-tai-gui-hua-xiang-jie-jin-jie)
+- [* 怎样学好动态规划？](https://www.zhihu.com/question/291280715/answer/1570410869?utm_source=wechat_session&utm_medium=social&utm_oi=629243178457370624&utm_content=group3_Answer&utm_campaign=shareopn)
 
 ### 贪心算法
 - [* 贪心算法](https://zh.wikipedia.org/wiki/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95)
@@ -29,7 +35,7 @@
 共同点在于，都是通过一个多次的重复的操作计算出最终的结果。
 
 - 遍历，依次对集合中的每个元素做且公做一次访问
-- 递归，不断通过自身调用去缩小范围，直到找到或尽头返回。使用调用自身函数来触发。
+- 递归，不断通过自身调用去缩小范围b，直到找到或尽头返回。使用调用自身函数来触发。
 - 迭代，是执行很多次,每次都运行上一次的结果，来向目标推进一点，直到找到结果。使用 `while`, `for` 循环条件来运行。
 
 
@@ -45,3 +51,15 @@
 - [js实现排序算法（冒泡、选择、插入、二分插入、快速、希尔）](https://blog.csdn.net/charlene0824/article/details/51387165)
 - [* 算法的时间和空间复杂度，就是这么简单](https://www.toutiao.com/a6750625828465279495)
 - [* 前端该如何准备数据结构和算法？](https://juejin.im/post/5d5b307b5188253da24d3cd1)
+
+广义定义:
+数据结构就 是指一组数据的存储结构。
+算法就是操作数据的一组方法。
+
+狭义
+是指队列，栈，堆，二分查找，动态规划等。
+
+数据结构和算法是相辅相成的，数据结构是为算法服务的，算法要作用在特定的数据结构之上。
+
+### 数据结构
+[数据结构](https://github.com/ClarenceC/data_structure_learn)
