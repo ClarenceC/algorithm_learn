@@ -166,3 +166,49 @@ void print(int n) {
 }
 ````
 因为没有占用更 多的空间，所以空间复杂度 **O(n)**
+
+### 四个复杂度分析方面的知识点
+最好情况时间复杂度(best case time complexity)
+最坏情况时间复杂度(worst case time complexity)
+平均情况时间复杂度(average case time complexity)
+均摊时间复杂度(amortized time complexity)
+
+```java
+int find(int[] array, int n, int x) {
+  int i = 0,
+  int pos = -1
+  for (; i < n; ++i) {
+    if (array[i] == x) pos = i
+  }
+  return pos
+}
+```
+
+时间复杂度为 **O(n)**
+
+```java
+int find(int[] array, int n, int x) {
+  int i = 0,
+  int pos = -1
+  for (; i < n; ++i) {
+    if (array[i] == x) { 
+      pos = i
+      break // 中途退出
+    }
+  }
+  return pos
+}
+```
+最好时间复杂度就是，在最理想的情况下，执行这段代码的时间复杂度。
+最坏时间复杂度就是，在最糟糕的情况下，执行这段代码的时间复杂度。
+
+最好时间复杂度 **O(1)**
+最坏时间复杂度 **O(n)**
+
+平均时间复杂度 **O(n)**
+
+平均时间复杂度全称，加权平均时间复杂度或期望时间复杂度。
+
+均摊时间复杂度，通过摊还分析得到的时间复杂度，叫均摊时间复杂度。
+对一个数据结构进行一组连续操作中，大部分情况下时间复杂度都很低，只有个别情况下时间复杂度比较高，而且这些操作之间存在前后连贯的时序关系，这个时候，我们就可以将这一组操作放在一起分析，看是否能将较高时间复杂度妹子次操作的耗时平摊到其它时间复杂度低的操作上面，而且，在能够应用均摊时间复杂度分析的场合，一般均摊时间复杂度就等于最好了情况时间复杂度。
+
