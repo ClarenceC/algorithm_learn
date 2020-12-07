@@ -1,6 +1,6 @@
 ## 快速排序
 
-快速排序也是最常用的算法，因为性能通常比，冒泡，插入，选择都要好，和归并排序一样。
+快速排序也是最常用的算法，因为性能通常比，冒泡，插入，选择都要好，快速排序和归并排序性能一样。
 
 快速排序的步骤:
 
@@ -19,24 +19,24 @@ function swap(array, a, b) {
 }
 
 function partition(array, left, right, compareFn) {
-  const pivot = array[Math.floor((right + left) / 2)]
-  let i = left
-  let j = right
+  const pivot = array[Math.floor((right + left) / 2)] // 取中间值作为基准
+  let i = left // 左边指针
+  let j = right // 右边指针
 
-  while(i <= j) {
-    while(compareFn(array[i], pivot) === Compare.LESS_THAN) {
+  while(i <= j) { // 左指针和右指针重复时结束
+    while(compareFn(array[i], pivot) === Compare.LESS_THAN) { // 找到比基准大的数
       i++
     }
-    while(compareFn(array[j], pivot) === COmpare.BIGGER_THAN) {
+    while(compareFn(array[j], pivot) === Compare.BIGGER_THAN) { // 找到比基准小的数
       j--
     }
     if (i <= j) {
-      swap(array, i, j)
+      swap(array, i, j) // 交换数
       i++
       j--
     }
   }
-  return i
+  return i // 返回基准索引
 }
 
 function quickSort(array, left, right, compareFn) {
@@ -46,13 +46,14 @@ function quickSort(array, left, right, compareFn) {
 function quick(array, left, right, compareFn = defaultCompare) {
   let index
   if (array.length > 1) {
-    index = partition(array, left, right, compareFn)
-    if (left < index - 1) {
+    index = partition(array, left, right, compareFn) // 获取基准索引
+    if (left < index - 1) { // 如果基准索引比开始索引大继续划分
       quick(array, left, index - 1, compareFn)
     }
-    if(index > right) {
+    if(index > right) { // 如果基准索引比结果索引小继续划分
       quick(array, index, right, compareFn)
     }
+    // 直到基准相同结束返回数组
   }
   return array
 }
@@ -64,3 +65,6 @@ function quick(array, left, right, compareFn = defaultCompare) {
 最佳情况: **T(n) = O(nlog(n))**
 最坏情况: **T(n) = O(n<sup>2</sup>)**
 平均情况: **T(n) = O(nlog(n))**
+
+
+[* 快速排序（Quicksort）的Javascript实现](https://www.ruanyifeng.com/blog/2011/04/quicksort_in_javascript.html)
