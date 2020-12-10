@@ -5,6 +5,13 @@
 
 - [时间空间复杂度](./Complexity/complexity.md)
 
+### 排序基于复杂度分类
+![](./images/fb8394a588b12ff6695cfd664afb17cd.jpg)
+
+比较的排序算法的执行过程，会涉及两种操作，一是元素比较大小，另一种是元素交换或移动。
+
+原地排序(Sorted in place)算法，是特指空间复杂度是 **O(1)**的排序算法。
+
 双迭代排序
 - [冒泡排序](./BubbleSort/bubble.md)
 - [选择排序](./SelectionSort/SelectionSort.md)
@@ -21,6 +28,13 @@
 - [顺序搜索](./SequentialSearch/SequentialSearch.md)
 - [内插搜索](./InterpolationSearch/InterpolationSearch.md)
 - [二分搜索](./BinarySearch/BinarySearch.md)
+
+其它偏排序
+
+猴子排序
+睡眠排序
+面条排序
+
 
 ![images](./images/WX20200819-105621.png)
 
