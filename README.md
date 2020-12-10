@@ -5,13 +5,16 @@
 
 - [时间空间复杂度](./Complexity/complexity.md)
 
-
+双迭代排序
 - [冒泡排序](./BubbleSort/bubble.md)
 - [选择排序](./SelectionSort/SelectionSort.md)
 - [插入排序](./InsertionSort/InsertionSort.md)
-- [希尔排序](./ShellSort/SheelSort.md)
+
+分组排序
 - [归并排序](./MergeSort/MergeSort.md)
 - [快速排序](./QuickSort/QuickSort.md)
+
+- [希尔排序](./ShellSort/SheelSort.md)
 - [计数排序](./CountingSort/CountingSort.md)
 - [桶排序](./BucketSort/BucketSort.md)
 - [基数排序](./RadixSort/RadixSort.md)
