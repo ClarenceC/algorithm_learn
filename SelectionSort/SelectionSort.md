@@ -31,7 +31,7 @@ function selectionSort(array, compareFn = defaultCompare) {
 }
 ```
 
-选择排序是一个最普遍的算法
+选择排序是一个最普遍的算法，是一个原地排序算法，并且是一种不稳定的排序算法
 
 最佳情况: 输入数组按升序排列 **T(n) = O(n<sup>2</sup>)**
 

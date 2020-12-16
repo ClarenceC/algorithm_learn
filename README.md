@@ -21,7 +21,7 @@
 - [归并排序](./MergeSort/MergeSort.md)
 - [快速排序](./QuickSort/QuickSort.md)
 
-- [希尔排序](./ShellSort/SheelSort.md)
+- [希尔排序](./ShellSort/SheelSort.md) 插入排序的优化
 - [计数排序](./CountingSort/CountingSort.md)
 - [桶排序](./BucketSort/BucketSort.md)
 - [基数排序](./RadixSort/RadixSort.md)
@@ -84,6 +84,7 @@
 - [js实现排序算法（冒泡、选择、插入、二分插入、快速、希尔）](https://blog.csdn.net/charlene0824/article/details/51387165)
 - [* 算法的时间和空间复杂度，就是这么简单](https://www.toutiao.com/a6750625828465279495)
 - [* 前端该如何准备数据结构和算法？](https://juejin.im/post/5d5b307b5188253da24d3cd1)
+- [* 算法动态图](https://visualgo.net/)
 
 广义定义:
 数据结构就 是指一组数据的存储结构。
