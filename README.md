@@ -12,16 +12,20 @@
 
 原地排序(Sorted in place)算法，是特指空间复杂度是 **O(1)**的排序算法。
 
-双迭代排序
+双循环排序 **O(n<sup>2</sup>)**
+
+适合小数据量排序
 - [冒泡排序](./BubbleSort/bubble.md)
 - [选择排序](./SelectionSort/SelectionSort.md)
 - [插入排序](./InsertionSort/InsertionSort.md)
+- [希尔排序](./ShellSort/SheelSort.md) 插入排序的优化
 
-分组排序
+分组排序 **O(nlogn)**
+用到了分治思想，适合大数据量排序
 - [归并排序](./MergeSort/MergeSort.md)
 - [快速排序](./QuickSort/QuickSort.md)
 
-- [希尔排序](./ShellSort/SheelSort.md) 插入排序的优化
+
 - [计数排序](./CountingSort/CountingSort.md)
 - [桶排序](./BucketSort/BucketSort.md)
 - [基数排序](./RadixSort/RadixSort.md)
