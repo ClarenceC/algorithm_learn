@@ -2,6 +2,12 @@
 
 快速排序也是最常用的算法，因为性能通常比，冒泡，插入，选择都要好，快速排序和归并排序性能一样。
 
+快速排序思想: 如果要排序数组中下标从 p 到 r 之前的一组数据，我们选择 p 到 r 之间的任意一个数据作为 pivot(分区点),跟着遍历从 p 到 r 之间的数据，把小于 pivot 的放到 pivot 的左边，大于 pivot 的放到右边，跟着数组 p 到 r 之间的数据就会被分成三个部分，再通过分治思想递归处理，就会变成有序数组。
+
+![](./images/4d892c3a2e08a17f16097d07ea088a81.jpg)
+
+
+
 快速排序的步骤:
 
 1. 从数组中选择一个值作为 **主元(pivot)**, 数组中中间的值。
@@ -65,6 +71,8 @@ function quick(array, left, right, compareFn = defaultCompare) {
 最佳情况: **T(n) = O(nlog(n))**
 最坏情况: **T(n) = O(n<sup>2</sup>)**
 平均情况: **T(n) = O(nlog(n))**
+
+空间复杂度: **T(n) = O(log(n))**
 
 
 [* 快速排序（Quicksort）的Javascript实现](https://www.ruanyifeng.com/blog/2011/04/quicksort_in_javascript.html)

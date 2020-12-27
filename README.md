@@ -25,6 +25,11 @@
 - [归并排序](./MergeSort/MergeSort.md)
 - [快速排序](./QuickSort/QuickSort.md)
 
+![](./images/aa03ae570dace416127c9ccf9db8ac05.jpg)
+
+归并排序是由下到上的，先处理子问题，然后再合并，归关排序虽然是稳定的排序，但不是原地排序算法。
+
+快速排序是相反的，处理过程是由上到下的，先分区，然后再处理子问题。
 
 - [计数排序](./CountingSort/CountingSort.md)
 - [桶排序](./BucketSort/BucketSort.md)
@@ -101,3 +106,6 @@
 
 ### 数据结构
 [数据结构](https://github.com/ClarenceC/data_structure_learn)
+
+### 资料引用
+[数据结构与算法之美_王争](https://time.geekbang.org/column/intro/126)
