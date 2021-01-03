@@ -31,9 +31,13 @@
 
 快速排序是相反的，处理过程是由上到下的，先分区，然后再处理子问题。
 
+下面三种都是叫，线性排序，之所以叫做线性的时间复杂度，主要是下面三个算法是非基于比较的排序算法，都不涉及元素之间的比较操作，但是对排序数据的要求很苛刻。
+
 - [计数排序](./CountingSort/CountingSort.md)
 - [桶排序](./BucketSort/BucketSort.md)
 - [基数排序](./RadixSort/RadixSort.md)
+
+
 - [顺序搜索](./SequentialSearch/SequentialSearch.md)
 - [内插搜索](./InterpolationSearch/InterpolationSearch.md)
 - [二分搜索](./BinarySearch/BinarySearch.md)
